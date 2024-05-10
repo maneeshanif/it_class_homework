@@ -9,16 +9,16 @@
 
     let num1:number = 12;
     let num2:number = 30;
-    let operator:string = "+";
-    function calculator(num1:number,num2:number,operator:string){
+    let Operator:string = "+";
+    function calculator(x:number,y:number,operator:string){
         if(operator == "+"){
-            return num1 + num2;
+            return x + y;
         }else {
-            return num1 - num2;
+            return x - y;
         }
     }
-    console.log(calculator(num1,num1,operator));
-    operator = "-"
-    console.log(calculator(10,2,operator));
+    console.log(calculator(num1,num1,Operator));
+    Operator = "-"
+    console.log(calculator(15,2,Operator));
     
     

@@ -7,16 +7,16 @@
 //  • Update the operator value and call the function again with the updated arguments.
 let num1 = 12;
 let num2 = 30;
-let operator = "+";
-function calculator(num1, num2, operator) {
+let Operator = "+";
+function calculator(x, y, operator) {
     if (operator == "+") {
-        return num1 + num2;
+        return x + y;
     }
     else {
-        return num1 - num2;
+        return x - y;
     }
 }
-console.log(calculator(num1, num1, operator));
-operator = "-";
-console.log(calculator(10, 2, operator));
+console.log(calculator(num1, num1, Operator));
+Operator = "-";
+console.log(calculator(15, 2, Operator));
 export {};

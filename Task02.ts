@@ -8,6 +8,11 @@
 */
 import inquirer from "inquirer";
 let randomNumber = Math.floor(Math.random() * 10);
+console.log("\t\t\t\t Number Guessing Game\n\n\n");
+console.log(
+  "\t\tIn this game,your entered number is compared with computer-generated-number\n"
+);
+
 let userNumber = await inquirer.prompt({
   name: "userno",
   type: "number",
@@ -27,5 +32,5 @@ if (userNumber.userno > randomNumber) {
   console.log(
     ` you write ${userNumber.userno} number which is smaller than the  ${randomNumber} random number `
   );
-  console.log("try again belive me you can do it");
+  console.log("Try again belive me you can do it");
 }

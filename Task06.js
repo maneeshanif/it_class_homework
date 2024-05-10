@@ -6,7 +6,7 @@
 /////////////////////           Anonymous Function  
 let Fun = function (x) {
     console.log(x);
-}("anees");
+}("Anees");
 //////////////////////          Simple Function
 function fun(X) {
     console.log(X);

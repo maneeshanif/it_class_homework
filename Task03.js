@@ -4,6 +4,7 @@
 //    • Output a confirmation message if the name is known, otherwise output a default
 //    response.
 import inquirer from "inquirer";
+console.log("\t\t\t\t Friend-Checker-Game\n\n\n\n");
 let myFriend = ["ahmed", "habib", "ashar", "uzair", "hamza"];
 let userName = await inquirer.prompt({
     name: "username",
@@ -12,19 +13,19 @@ let userName = await inquirer.prompt({
 });
 switch (userName.username) {
     case myFriend[0]:
-        console.log("you are my Friend bro");
+        console.log("You are my Friend bro");
         break;
     case myFriend[1]:
-        console.log("you are my Friend bro");
+        console.log("You are my Friend bro");
         break;
     case myFriend[2]:
-        console.log("you are my Friend bro");
+        console.log("You are my Friend bro");
         break;
     case myFriend[3]:
-        console.log("you are my Friend bro");
+        console.log("You are my Friend bro");
         break;
     case myFriend[4]:
-        console.log("you are my Friend bro");
+        console.log("You are my Friend bro");
         break;
     default:
         console.log("Sorry ): to say but you are not my friend");
