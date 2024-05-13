@@ -13,7 +13,7 @@ console.log("\t\tIn this game,your entered number is compared with computer-gene
 let userNumber = await inquirer.prompt({
     name: "userno",
     type: "number",
-    message: "Enter th number between 1 to 10 ",
+    message: "Enter the number between 1 to 10 ",
 });
 if (userNumber.userno > randomNumber) {
     console.log(`you entered ${userNumber.userno} number which is Higher than the ${randomNumber} random Number `);

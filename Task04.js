@@ -9,5 +9,5 @@ function myPersonalOpinion(a = myFvrtSubject, b = day) {
     return c;
 }
 myPersonalOpinion();
-myPersonalOpinion(1, 2);
+myPersonalOpinion("coding", "sunday");
 export {};

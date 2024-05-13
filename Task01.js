@@ -9,8 +9,8 @@ import inquirer from "inquirer";
 let miles = 130;
 let kilometers = miles * 1.60934;
 console.log(`The distance of ${miles} in miles is equal to ${kilometers} kms`);
-// This is an upgraded version of above code in this code I use inquirer to take input from user and gave the user 
-// its desire answer
+// This is an upgraded version of above code in this code I use inquirer to take input 
+//from user and gave the user its desire answer
 let Miles1 = await inquirer.prompt({
     name: "miles",
     type: "number",

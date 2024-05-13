@@ -16,7 +16,7 @@ console.log(
 let userNumber = await inquirer.prompt({
   name: "userno",
   type: "number",
-  message: "Enter th number between 1 to 10 ",
+  message: "Enter the number between 1 to 10 ",
 });
 if (userNumber.userno > randomNumber) {
   console.log(

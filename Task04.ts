@@ -10,4 +10,4 @@
      return c;
     }
     myPersonalOpinion();
-    myPersonalOpinion(1,2)
+    myPersonalOpinion("coding","sunday")

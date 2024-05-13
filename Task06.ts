@@ -9,7 +9,7 @@ let Fun = function(x:string){
     console.log(x);
     
 }
-("Anees");
+("Pakistan");
     
 //////////////////////          Simple Function
 function fun(X:string){
